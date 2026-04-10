@@ -118,4 +118,4 @@ def remove_participant(activity_name: str, email: str):
 
     activity["participants"].remove(email)
     return {"message": f"Removed {email} from {activity_name}"}
-}
+
